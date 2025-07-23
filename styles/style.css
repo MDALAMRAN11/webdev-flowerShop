@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*shared styles*/
+.primary-btn {
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 0.3rem 1.5rem;
+  background-color: #e55473;
+  color: white;
+  border: none;
+  border-radius: 0.4rem;
+  margin: 1rem auto;
+}
+.paragraph {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 1rem auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+/*header section*/
+header {
+  background-color: rgba(229, 84, 115, 0.1);
+  width: 100%;
+  margin: auto;
+}
+header section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto 5rem;
+  text-align: center;
+}
+header section .left-side {
+  text-align: start;
+  padding-right: 4rem;
+}
+header section .left-side h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+/*main section*/
+main > section {
+  width: 85vw;
+  margin: 9rem auto;
+}
+main .first-section .flower-head {
+  text-align: center;
+}
+main .all-flowers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+  margin: 2rem auto;
+}
+main .all-flowers > img {
+  display: block;
+  height: 100%;
+}
+main .all-flowers > img:nth-child(1) {
+  background-color: rgba(167, 33, 98, 0.15);
+  padding: 7rem 4rem 0 4rem;
+  border-radius: 47% 47% 0 0;
+}
+main .all-flowers > img:nth-child(2) {
+  background-color: rgba(5, 151, 160, 0.15);
+  padding: 7rem 4rem 0 4rem;
+  border-radius: 47% 47% 0 0;
+}
+main .all-flowers > img:nth-child(3) {
+  background-color: rgba(71, 125, 17, 0.15);
+  padding: 7rem 4rem 0 4rem;
+  border-radius: 47% 47% 0 0;
+}
+main .flower-p {
+  display: flex;
+  justify-content: space-around;
+}
+
+/*second section*/
+.second-section {
+  width: 85vw;
+  background-color: rgba(39, 39, 39, 0.05);
+  margin: 9rem auto;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.second-section .order-support {
+  width: 20rem;
+}
+.second-section .order-support > img {
+  padding-left: 7rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.second-section .order-support > p {
+  padding: 3rem auto;
+}
+
+/*third section*/
+.third-section {
+  width: 100%;
+  margin: 9rem auto;
+  background-color: rgba(229, 84, 115, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 10rem;
+}
+.third-section .left h2 {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+/*fourth section*/
+.fourth-section .top {
+  text-align: center;
+}
+.fourth-section .bottom {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  margin: 3rem auto;
+}
+
+/*fifth section*/
+.fifth-section {
+  width: 85vw;
+  background-image: url("../Flower Asset/Flower\ 01.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  text-align: center;
+}
+.fifth-section > div {
+  width: 90%;
+  margin: auto;
+  padding: 5rem 0;
+}
+.fifth-section h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.fifth-section > div > div > input:nth-child(1) {
+  width: 30rem;
+  padding: 0.6rem;
+  border: none;
+  border-radius: 0.4rem;
+  margin-right: 1rem;
+}
+.fifth-section .all-items .all-inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.fifth-section .all-items .all-inputs .primary-btn {
+  margin: 0;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+footer section {
+  width: 85vw;
+  margin: auto;
+  padding: 2rem 0;
+  text-align: center;
+}
+footer section h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin: 1rem auto;
+}
+
+footer section .copyright {
+  font-size: 0.6rem;
+  font-weight: 200;
+  margin: 0.5rem auto;
+  margin-bottom: 1rem;
+}
